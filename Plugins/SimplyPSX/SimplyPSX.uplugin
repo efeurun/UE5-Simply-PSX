@@ -1,0 +1,19 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0",
+  "FriendlyName": "UE5 Simply-PSX",
+  "Description": "Adjustable pixelation, vertex snapping, affine texture mapping, color reduction and dithering for Unreal Engine.",
+  "Category": "Rendering",
+  "CanContainContent": true,
+  "EnabledByDefault": true,
+  "IsBetaVersion": true,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "SimplyPSX",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ]
+}

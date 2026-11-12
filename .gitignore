@@ -1,0 +1,14 @@
+**/Binaries/
+**/Intermediate/
+**/Saved/
+**/DerivedDataCache/
+.vs/
+.idea/
+*.sln
+*.suo
+*.VC.db
+*.VC.opendb
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

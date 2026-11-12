@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "checks": [
+    "Standalone controller class loads",
+    "Temporary editor world is available",
+    "Six bundled assets load without project content dependencies",
+    "Constructor resolves bundled material and parameter collection",
+    "Default assets use the plugin content mount",
+    "Fresh controller starts at Subtle 540p",
+    "Subtle defaults preserve colors and use gentle material effects",
+    "Fresh controller publishes its settings",
+    "Actor rename preserves the selected preset",
+    "Master disable clears screen and geometry effects",
+    "Master enable restores configured effects",
+    "Wobble can be disabled independently",
+    "Texture warping can be disabled independently",
+    "Screen pass is disabled when all screen effects are off",
+    "Color reduction works without pixelation or dithering",
+    "Dithering works without color reduction",
+    "Custom resolution reaches the screen material",
+    "Applying Custom preserves chosen settings",
+    "360p preset publishes complete settings",
+    "240p preset publishes complete settings",
+    "540p preset publishes complete settings",
+    "Duplicate controllers do not stack screen effects",
+    "Editing a suppressed duplicate does not replace the active settings",
+    "Deleting the owner transfers ownership and publishes survivor settings",
+    "Deleting a suppressed duplicate preserves the active effects",
+    "Deleting the final controller clears material effects",
+    "All temporary controllers are removed"
+  ],
+  "dependencies": {
+    "/SimplyPSX/Textures/T_DefaultRoughness": [],
+    "/SimplyPSX/Materials/M_PSXSurface": [
+      "/Engine/EngineMaterials/DefaultNormal",
+      "/Engine/EngineResources/WhiteSquareTexture",
+      "/SimplyPSX/Materials/MF_PSXAffineUV",
+      "/SimplyPSX/Materials/MF_PSXVertexSnap",
+      "/SimplyPSX/Materials/MPC_PSX",
+      "/SimplyPSX/Textures/T_DefaultRoughness"
+    ],
+    "/SimplyPSX/Materials/MPC_PSX": [],
+    "/SimplyPSX/Materials/MF_PSXVertexSnap": [
+      "/SimplyPSX/Materials/MPC_PSX"
+    ],
+    "/SimplyPSX/Materials/MF_PSXAffineUV": [
+      "/SimplyPSX/Materials/MPC_PSX"
+    ],
+    "/SimplyPSX/Materials/M_PSXScreen": []
+  },
+  "scope": "Standalone asset references, editor settings and temporary actor lifecycle. No rendering, PIE, cooking or packaged-game verification.",
+  "world": "/Temp/Untitled_0.Untitled",
+  "count": 27
+}
